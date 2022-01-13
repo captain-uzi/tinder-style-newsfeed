@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Expo Firebase Starter",
+    "slug": "expo-firebase",
+    "privacy": "public",
+    "platforms": ["ios", "android"],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/flame.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#F57C00"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "This app uses Location to create geotagged posts which can be seen on the map",
+        "NSCameraUsageDescription": "This app uses the camera to allow users to send photos for processing orders. Your photos wont be shared without your permission",
+        "NSMicrophoneUsageDescription": "This app uses the microphone to allow users to send orders via voice message.",
+        "NSPhotoLibraryUsageDescription": "This app uses the camera to allow users to send photos for processing orders. Your photos wont be shared without your permission"
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "permissions": ["ACCESS_BACKGROUND_LOCATION"]
+    }
+  }
+}
